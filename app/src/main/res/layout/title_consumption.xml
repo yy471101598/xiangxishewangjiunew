@@ -26,7 +26,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="会员消费"
+                    android:text="会员换购"
                     android:textColor="@color/text_30"
                     android:textSize="15sp" />
             </LinearLayout>
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="散客消费"
+                    android:text="散客换购"
                     android:textColor="@color/text_30"
                     android:textSize="15sp" />
             </LinearLayout>

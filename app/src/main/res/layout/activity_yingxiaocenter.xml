@@ -471,7 +471,7 @@
             android:textSize="15sp"
             android:gravity="center_vertical"
             android:paddingLeft="15dp"
-            android:text="消费数据"
+            android:text="换购数据"
             />
     </LinearLayout>
     <View
@@ -494,7 +494,7 @@
             android:textSize="15sp"
             android:gravity="center_vertical"
             android:paddingLeft="15dp"
-            android:text="余额"
+            android:text="积分"
             />
         <View
             android:layout_width="1dp"

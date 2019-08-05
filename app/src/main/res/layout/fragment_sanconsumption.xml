@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:textSize="15sp"
         android:textColor="@color/text_30"
-        android:text="消费金额"
+        android:text="换购积分"
         android:layout_centerVertical="true"
         android:layout_marginLeft="10dp"
         />
@@ -32,7 +32,7 @@
         android:textColor="@color/text_30"
         android:textSize="15sp"
         android:gravity="center_vertical|right"
-        android:hint="请输入消费金额"
+        android:hint="请输入换购积分"
         />
 </RelativeLayout>
     <View
@@ -140,7 +140,7 @@
                 android:paddingRight="5dp"
                 android:background="@drawable/cloud_recharge_btn_select"
                 android:gravity="center"
-                android:text="余额"
+                android:text="积分"
                 android:textColor="@drawable/cloud_recharge_txt_color_select"
                 android:textSize="13sp"/>
             <RadioButton

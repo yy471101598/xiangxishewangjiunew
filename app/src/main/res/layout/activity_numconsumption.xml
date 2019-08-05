@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="消费总次："
+            android:text="换购总次："
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textColor="@color/text_30"
-                android:text="会员积分"
+                android:text="会员酒瓶"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 />
@@ -170,7 +170,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textColor="@color/text_30"
-                android:text="会员余额"
+                android:text="会员积分"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 />

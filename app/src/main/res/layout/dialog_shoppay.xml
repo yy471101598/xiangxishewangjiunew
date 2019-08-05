@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="应付金额"
+            android:text="应付积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -68,7 +68,7 @@
                 android:paddingRight="5dp"
                 android:background="@drawable/cloud_recharge_btn_select"
                 android:gravity="center"
-                android:text="余额"
+                android:text="积分"
                 android:checked="true"
                 android:textColor="@drawable/cloud_recharge_txt_color_select"
                 android:textSize="13sp"/>
@@ -169,7 +169,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="支付金额"
+            android:text="支付积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />

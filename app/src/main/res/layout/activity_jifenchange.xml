@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="会员积分"
+            android:text="会员酒瓶"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="会员余额"
+            android:text="会员积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -182,7 +182,7 @@
         android:drawableRight="@drawable/radio"
         android:button="@null"
         android:checked="true"
-        android:text="增加积分"
+        android:text="增加酒瓶"
         android:drawablePadding="6dp"
         android:textColor="@color/text_30"
         android:paddingLeft="13dp"
@@ -195,7 +195,7 @@
             android:gravity="center"
             android:drawableRight="@drawable/radio"
             android:button="@null"
-            android:text="减少积分"
+            android:text="减少酒瓶"
             android:drawablePadding="6dp"
             android:layout_marginLeft="100dp"
             android:textColor="@color/text_30"
@@ -233,7 +233,7 @@
             android:inputType="number"
             android:textSize="15sp"
             android:background="@null"
-            android:hint="请输入积分变动数量"
+            android:hint="请输入酒瓶变动数量"
             />
     </RelativeLayout>
 

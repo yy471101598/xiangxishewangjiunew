@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="会员余额"
+            android:text="会员积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -123,7 +123,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="会员积分"
+            android:text="会员酒瓶"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -287,7 +287,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="充值金额"
+            android:text="充值积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -305,7 +305,7 @@
             android:textColorHint="@color/theme_red"
             android:gravity="center_vertical|right"
             android:textSize="15sp"
-            android:hint="请输入充值金额"
+            android:hint="请输入充值积分"
             />
         <View
             android:layout_width="match_parent"

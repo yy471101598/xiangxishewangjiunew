@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kuang_gray_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="请输入验证码"
+            android:textColor="@color/text_30"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/viewcolor"></View>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/kuang_gray_white">
+
+        <EditText
+            android:id="@+id/code_et_code"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/viprecharge_tv_cardnum"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="请输入验证码"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="@color/text_30"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/code_rl_fasong"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/kuang_red_red">
+
+            <TextView
+                android:id="@+id/code_tv_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送验证码"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/code_rl_confirm"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/kuang_red_red">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"></View>
+</LinearLayout>

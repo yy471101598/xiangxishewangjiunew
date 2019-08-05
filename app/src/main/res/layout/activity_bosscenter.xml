@@ -139,7 +139,7 @@
                 android:textColor="@color/text_30"
                 android:layout_marginLeft="10dp"
                 android:textSize="15sp"
-                android:text="赠送金额（元）"
+                android:text="赠送积分（元）"
                 />
             <TextView
                 android:id="@+id/boss_tv_givemoney"
@@ -282,7 +282,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="余额消费（元）"
+                        android:text="积分换购（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_yuexf"
@@ -313,7 +313,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="在线消费（元）"
+                        android:text="在线换购（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_linexf"
@@ -353,7 +353,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="现金消费（元）"
+                        android:text="现金换购（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_xjxf"
@@ -384,7 +384,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="积分抵扣（元）"
+                        android:text="酒瓶抵扣（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_jfdk"
@@ -419,7 +419,7 @@
                     android:textColor="@color/text_30"
                     android:layout_marginLeft="10dp"
                     android:textSize="15sp"
-                    android:text="消费总额（元）"
+                    android:text="换购总额（元）"
                     />
                 <TextView
                     android:id="@+id/boss_tv_allxf"
@@ -546,7 +546,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="消费金额（元）"
+                        android:text="换购积分（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_ljxf"
@@ -577,7 +577,7 @@
                         android:textColor="@color/text_30"
                         android:layout_marginLeft="10dp"
                         android:textSize="15sp"
-                        android:text="充值金额（元）"
+                        android:text="充值积分（元）"
                         />
                     <TextView
                         android:id="@+id/boss_tv_ljrecharge"

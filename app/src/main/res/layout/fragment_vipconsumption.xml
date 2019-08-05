@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="会员积分"
+            android:text="会员酒瓶"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -119,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:textColor="@color/text_30"
-                android:text="会员余额"
+                android:text="会员积分"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 />
@@ -182,7 +182,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="消费金额"
+            android:text="换购积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -200,7 +200,7 @@
             android:textColor="@color/theme_red"
             android:textColorHint="@color/theme_red"
             android:textSize="15sp"
-            android:hint="请输入消费金额"
+            android:hint="请输入换购积分"
             />
     </RelativeLayout>
     <View
@@ -217,7 +217,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="折后金额"
+            android:text="折后积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -273,7 +273,7 @@
                 android:paddingRight="5dp"
                 android:background="@drawable/cloud_recharge_btn_select"
                 android:gravity="center"
-                android:text="余额"
+                android:text="积分"
                 android:checked="true"
                 android:textColor="@drawable/cloud_recharge_txt_color_select"
                 android:textSize="13sp"/>
@@ -376,7 +376,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="支付金额"
+            android:text="支付积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -393,7 +393,7 @@
             android:textColor="@color/text_30"
             android:gravity="center_vertical|right"
             android:textSize="15sp"
-            android:hint="请输入支付金额"
+            android:hint="请输入支付积分"
             />
         <View
             android:layout_width="match_parent"
@@ -454,7 +454,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="余额支付"
+            android:text="积分支付"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -471,7 +471,7 @@
             android:inputType="number|numberDecimal"
             android:textColor="@color/text_30"
             android:textSize="15sp"
-            android:hint="请输入支付金额"
+            android:hint="请输入支付积分"
             />
         <View
             android:layout_width="match_parent"
@@ -492,7 +492,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="积分支付"
+            android:text="酒瓶支付"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -509,7 +509,7 @@
             android:textColor="@color/text_30"
             android:textSize="15sp"
             android:inputType="number|numberDecimal"
-            android:hint="请输入支付积分"
+            android:hint="请输入支付酒瓶"
             />
         <View
             android:layout_width="match_parent"
@@ -530,7 +530,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="积分最大抵扣"
+            android:text="酒瓶最大抵扣"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -563,7 +563,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="积分抵扣金额"
+            android:text="酒瓶抵扣积分"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />
@@ -595,7 +595,7 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:textColor="@color/text_30"
-            android:text="可得积分"
+            android:text="可得酒瓶"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
             />

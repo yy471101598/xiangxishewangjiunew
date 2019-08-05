@@ -61,7 +61,7 @@
                   android:layout_height="wrap_content"
                   android:textColor="@color/text_30"
                   android:textSize="14sp"
-                  android:text="所需积分："
+                  android:text="所需酒瓶："
                   android:layout_centerVertical="true"
                   />
               <TextView
