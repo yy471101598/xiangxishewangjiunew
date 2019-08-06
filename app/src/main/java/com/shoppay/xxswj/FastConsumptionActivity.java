@@ -102,7 +102,7 @@ public class FastConsumptionActivity extends FragmentActivity implements
 		rl_right.setOnClickListener(this);
 		mTextView = (TextView) findViewById(R.id.tv_title);
 
-		mTextView.setText("快速换购");
+		mTextView.setText("快速消费");
 		rl_left = (RelativeLayout) findViewById(R.id.rl_left);
 		rl_left.setOnClickListener(this);
 

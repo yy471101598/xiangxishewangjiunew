@@ -81,7 +81,7 @@ public class HomeActivity extends Activity{
                             Toast.makeText(ac,"该功能未授权",Toast.LENGTH_SHORT).show();
                         }
                         break;
-                    case "快速换购":
+                    case "快速消费":
                         if(quanxian.fastxiaofei==1) {
                             Intent intent1 = new Intent(ac, FastConsumptionActivity.class);
                             startActivity(intent1);
@@ -193,7 +193,7 @@ public class HomeActivity extends Activity{
         h3.iconId=R.mipmap.shopxiaofei;
         list.add(h3);
         Home h7=new Home();
-        h7.name="快速换购";
+        h7.name="快速消费";
         h7.iconId=R.mipmap.fastxiaofei;
         list.add(h7);
         Home h9=new Home();
