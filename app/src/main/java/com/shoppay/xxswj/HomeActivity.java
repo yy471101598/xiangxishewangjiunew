@@ -73,7 +73,7 @@ public class HomeActivity extends Activity{
                         Intent qiandao=new Intent(ac,VipQiandaoActivity.class);
                         startActivity(qiandao);
                         break;
-                    case "商品换购":
+                    case "商品消费":
                         if(quanxian.shopxiaofei==1) {
                             Intent intent2 = new Intent(ac, BalanceActivity.class);
                             startActivity(intent2);
@@ -89,7 +89,7 @@ public class HomeActivity extends Activity{
                             Toast.makeText(ac,"该功能未授权",Toast.LENGTH_SHORT).show();
                         }
                         break;
-                    case "计次换购":
+                    case "计次消费":
                         if(quanxian.numxiaofei==1) {
                             Intent intent3 = new Intent(ac, NumConsumptionActivity.class);
                             startActivity(intent3);
@@ -121,7 +121,7 @@ public class HomeActivity extends Activity{
                             Toast.makeText(ac,"该功能未授权",Toast.LENGTH_SHORT).show();
                         }
                         break;
-                    case "换购记录":
+                    case "消费记录":
                         Intent xiaofeirecord=new Intent(ac,XiaofeiRecordActivity.class);
                         startActivity(xiaofeirecord);
                         break;
@@ -189,7 +189,7 @@ public class HomeActivity extends Activity{
         h22.iconId=R.mipmap.vipqiandao;
         list.add(h22);
         Home h3=new Home();
-        h3.name="商品换购";
+        h3.name="商品消费";
         h3.iconId=R.mipmap.shopxiaofei;
         list.add(h3);
         Home h7=new Home();
@@ -197,7 +197,7 @@ public class HomeActivity extends Activity{
         h7.iconId=R.mipmap.fastxiaofei;
         list.add(h7);
         Home h9=new Home();
-        h9.name="计次换购";
+        h9.name="计次消费";
         h9.iconId=R.mipmap.vipnumxiaofei;
         list.add(h9);
         Home h4=new Home();
@@ -213,7 +213,7 @@ public class HomeActivity extends Activity{
         h81.iconId=R.mipmap.jiajianjifen;
         list.add(h81);
         Home h62=new Home();
-        h62.name="换购记录";
+        h62.name="消费记录";
         h62.iconId=R.mipmap.xiaofeijilv;
         list.add(h62);
         Home h5=new Home();
